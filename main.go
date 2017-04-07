@@ -38,7 +38,7 @@ import (
 	"golang.org/x/oauth2/google"
 
 	"github.com/codegangsta/cli"
-	"github.com/googlecloudplatform/gcsfuse/internal/canned"
+	"github.com/r1979/gcsfuse/internal/canned"
 	"github.com/jacobsa/daemonize"
 	"github.com/jacobsa/fuse"
 	"github.com/jacobsa/gcloud/gcs"
