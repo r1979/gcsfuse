@@ -23,9 +23,9 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/googlecloudplatform/gcsfuse/internal/fs/handle"
-	"github.com/googlecloudplatform/gcsfuse/internal/fs/inode"
-	"github.com/googlecloudplatform/gcsfuse/internal/gcsx"
+	"github.com/r1979/gcsfuse/internal/fs/handle"
+	"github.com/r1979/gcsfuse/internal/fs/inode"
+	"github.com/r1979/gcsfuse/internal/gcsx"
 	"github.com/jacobsa/fuse"
 	"github.com/jacobsa/fuse/fuseops"
 	"github.com/jacobsa/fuse/fuseutil"
