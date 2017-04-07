@@ -29,6 +29,9 @@
 #ifdef GOARCH_ppc64le
 #define JMP BR
 #endif
+#ifdef GOARCH_arm
+#define JMP BR
+#endif
 
 TEXT ·memclr(SB),NOSPLIT,$0-16
 	JMP runtime·memclr(SB)
