@@ -29,7 +29,7 @@
 #ifdef GOARCH_ppc64le
 #define JMP BR
 #endif
-#ifdef GOARCH_arm
+#ifdef GOARCH_arm64
 #define JMP BR
 #endif
 
