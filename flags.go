@@ -21,7 +21,7 @@ import (
 	"time"
 
 	"github.com/codegangsta/cli"
-	mountpkg "github.com/googlecloudplatform/gcsfuse/internal/mount"
+	mountpkg "github.com/r1979/gcsfuse/internal/mount"
 )
 
 // Set up custom help text for gcsfuse; in particular the usage section.
